@@ -1,0 +1,110 @@
+- duration : 10.0
+  generator :  
+          distribution : "seq"
+          clients_start : "16.0.0.1"
+          clients_end   : "16.0.1.255"
+          servers_start : "48.0.0.1"
+          servers_end   : "48.0.0.255"
+          clients_per_gb : 201
+          min_clients    : 101
+          dual_port_mask : "1.0.0.0" 
+          tcp_aging      : 1
+          udp_aging      : 1
+  mac        : [0x00,0x00,0x00,0x01,0x00,0x00]
+  cap_info : 
+#Bittorrent 6%
+     - name: /pcaps_for_application_mix/BitTorrent_151P_1060B_2.pcap
+       cps : 46.86
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Bittorrent - Handshake 0.25%
+     - name: /pcaps_for_application_mix/Bittorrent_TCP_Handshake_9P_66B.pcap
+       cps : 526.09
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#DNS 0.3%
+     - name: /pcaps_for_application_mix/DNS_3P_83B.pcap
+       cps : 1506.02
+       ipg : 50000
+       rtt : 50000
+       w   : 1
+#Ebay 2%
+     - name: /pcaps_for_application_mix/genericEBay_730P_1069B_3.pcap
+       cps : 3.2
+       ipg : 80000
+       rtt : 80000
+       w   : 1
+#Facebook-ssl 5%
+     - name: /pcaps_for_application_mix/Facebook_ssl_115P_414B.pcap
+       cps : 131.59
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Google Browsing 3%
+     - name: /pcaps_for_application_mix/GoogleBrowsing_27P_325B.pcap
+       cps : 428.67
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Gmail-ssl 2.5%
+     - name: /pcaps_for_application_mix/gmail-ssl_89P_440B.pcap
+       cps : 79.8
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Google Maps 2% 
+     - name: /pcaps_for_application_mix/GoogleMaps_25P_557B.pcap
+       cps : 179.21
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#ESPN 2.3%
+     - name: /pcaps_for_application_mix/genericESPN_16P_116B.pcap
+       cps : 1549.03
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#HTTP CP 1.5%
+     - name: /pcaps_for_application_mix/HTTP_YAD2_33_CP_16P_116B.pcap
+       cps : 1010.24
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#HTTP LW 1.9%
+     - name: /pcaps_for_application_mix/LW_HTTP_9P_102B_2.pcap
+       cps : 2587.15
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Netflix 40%
+     - name: /pcaps_for_application_mix/genericNetflix_11002P_1109B.pcap
+       cps : 3
+       ipg : 5400
+       rtt : 5400
+       w   : 1
+#SMTP 1.2% 
+     - name: /pcaps_for_application_mix/SMTP_IXIA_98P_253B.pcap
+       cps : 60.5
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Generic TCP 6.5%
+     - name: /pcaps_for_application_mix/genericTCP_31P_823B.pcap
+       cps : 381.1
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Generic UDP 3.5% 
+     - name: /pcaps_for_application_mix/genericUDP_102P_452B.pcap
+       cps : 97.04
+       ipg : 190000
+       rtt : 190000
+       w   : 1
+#Youtube-ssl 22%
+     - name: /pcaps_for_application_mix/YouTube_ssl_244P_689B_4.pcap
+       cps : 163.58
+       ipg : 190000
+       rtt : 190000
+       w   : 1
