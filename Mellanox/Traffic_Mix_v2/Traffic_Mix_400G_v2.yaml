@@ -13,98 +13,98 @@
   mac        : [0x00,0x00,0x00,0x01,0x00,0x00]
   cap_info : 
 #Bittorrent 6%
-     - name: /pcaps_for_application_mix_v2/BitTorrent_151P_1060B_2.pcap
+     - name: /pcaps_for_application_mix/BitTorrent_151P_1060B_2.pcap
        cps : 46.86
        ipg : 190000
        rtt : 190000
        w   : 1
 #Bittorrent - Handshake 0.25%
-     - name: /pcaps_for_application_mix_v2/Bittorrent_TCP_Handshake_9P_66B.pcap
-       cps : 526.09
+     - name: /pcaps_for_application_mix/Bittorrent_TCP_Handshake_9P_66B.pcap
+       cps : 841.75
        ipg : 190000
        rtt : 190000
        w   : 1
 #DNS 0.3%
-     - name: /pcaps_for_application_mix_v2/DNS_3P_83B.pcap
-       cps : 1506.02
+     - name: /pcaps_for_application_mix/DNS_3P_83B.pcap
+       cps : 2259.04
        ipg : 50000
        rtt : 50000
        w   : 1
 #Ebay 2%
-     - name: /pcaps_for_application_mix_v2/genericEBay_730P_1069B_3.pcap
+     - name: /pcaps_for_application_mix/genericEBay_730P_1069B_3.pcap
        cps : 3.2
        ipg : 80000
        rtt : 80000
        w   : 1
 #Facebook-ssl 5%
-     - name: /pcaps_for_application_mix_v2/Facebook_ssl_115P_414B.pcap
+     - name: /pcaps_for_application_mix/Facebook_ssl_115P_414B.pcap
        cps : 131.59
        ipg : 190000
        rtt : 190000
        w   : 1
 #Google Browsing 3%
-     - name: /pcaps_for_application_mix_v2/GoogleBrowsing_27P_325B.pcap
-       cps : 428.67
+     - name: /pcaps_for_application_mix/GoogleBrowsing_27P_325B.pcap
+       cps : 571.56
        ipg : 190000
        rtt : 190000
        w   : 1
 #Gmail-ssl 2.5%
-     - name: /pcaps_for_application_mix_v2/gmail-ssl_89P_440B.pcap
+     - name: /pcaps_for_application_mix/gmail-ssl_89P_440B.pcap
        cps : 79.8
        ipg : 190000
        rtt : 190000
        w   : 1
 #Google Maps 2% 
-     - name: /pcaps_for_application_mix_v2/GoogleMaps_25P_557B.pcap
-       cps : 179.21
+     - name: /pcaps_for_application_mix/GoogleMaps_25P_557B.pcap
+       cps : 125.45
        ipg : 190000
        rtt : 190000
        w   : 1
 #ESPN 2.3%
-     - name: /pcaps_for_application_mix_v2/genericESPN_16P_116B.pcap
-       cps : 1549.03
+     - name: /pcaps_for_application_mix/genericESPN_16P_116B.pcap
+       cps : 1346.98
        ipg : 190000
        rtt : 190000
        w   : 1
 #HTTP CP 1.5%
-     - name: /pcaps_for_application_mix_v2/HTTP_YAD2_33_CP_16P_116B.pcap
-       cps : 1010.24
+     - name: /pcaps_for_application_mix/HTTP_YAD2_33_CP_16P_116B.pcap
+       cps : 875.54
        ipg : 190000
        rtt : 190000
        w   : 1
 #HTTP LW 1.9%
-     - name: /pcaps_for_application_mix_v2/LW_HTTP_9P_102B_2.pcap
-       cps : 2587.15
+     - name: /pcaps_for_application_mix/LW_HTTP_9P_102B_2.pcap
+       cps : 1770.15
        ipg : 190000
        rtt : 190000
        w   : 1
 #Netflix 40%
-     - name: /pcaps_for_application_mix_v2/genericNetflix_11002P_1109B.pcap
+     - name: /pcaps_for_application_mix/genericNetflix_11002P_1109B.pcap
        cps : 3
        ipg : 5400
        rtt : 5400
        w   : 1
 #SMTP 1.2% 
-     - name: /pcaps_for_application_mix_v2/SMTP_IXIA_98P_253B.pcap
-       cps : 60.5
+     - name: /pcaps_for_application_mix/SMTP_IXIA_98P_253B.pcap
+       cps : 80.66
        ipg : 190000
        rtt : 190000
        w   : 1
 #Generic TCP 6.5%
-     - name: /pcaps_for_application_mix_v2/genericTCP_31P_823B.pcap
-       cps : 381.1
+     - name: /pcaps_for_application_mix/genericTCP_31P_823B.pcap
+       cps : 293.97
        ipg : 190000
        rtt : 190000
        w   : 1
 #Generic UDP 3.5% 
-     - name: /pcaps_for_application_mix_v2/genericUDP_102P_452B.pcap
-       cps : 97.04
+     - name: /pcaps_for_application_mix/genericUDP_102P_452B.pcap
+       cps : 83.18
        ipg : 190000
        rtt : 190000
        w   : 1
 #Youtube-ssl 22%
-     - name: /pcaps_for_application_mix_v2/YouTube_ssl_244P_689B_4.pcap
-       cps : 163.58
+     - name: /pcaps_for_application_mix/YouTube_ssl_244P_689B_4.pcap
+       cps : 171.01
        ipg : 190000
        rtt : 190000
        w   : 1
